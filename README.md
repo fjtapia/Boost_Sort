@@ -40,6 +40,7 @@ Detailed [boost API documentation](https://www.boost.org/doc/libs/release/libs/s
   | Algorithm             |Stable |   Additional memory    |Best, average, and worst case |
   |-----------------------|-------|------------------------|------------------------------|
   | block_indirect_sort   |  no   |block_size * num_threads| N, N LogN , N LogN           |
+  |                       |       |+ size of the data / 256|                              |
   | sample_sort           |  yes  |        N               | N, N LogN , N LogN           |
   | parallel_stable_sort  |  yes  |      N / 2             | N, N LogN , N LogN           |
 
